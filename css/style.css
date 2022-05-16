@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;500&display=swap');
+/* font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif; */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.logoimg{
+    width: 65px;
+    height: 65px;
+
+}
+
+.menubar .nav-link{
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+font-feature-settings: 'liga' off;
+color: #18191F;
+margin: 12px 10px;
+padding-left: 40px;
+
+}
+
+.search {
+    
+    margin: 22px 0px;
+}
+
+.bar{
+    color: black;
+}
+
+
+
+.shed img{
+    position: absolute;
+    width: 1109px;
+    height: 495px;
+    top: 0;
+    bottom: 0;
+    margin: 108px 0px;
+}
+
+.shadow{
+    width: 1109px;
+    height: 495px;
+    background: linear-gradient(90deg, #0F0F0F 0%, rgb(109, 109, 109,0) 100%);
+    z-index: 999;
+    position: relative;
+   
+}
+
+.text-one h2{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    display: flex;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 9999;
+    margin-top: -383px;
+    margin-left: 60px;
+
+}
+
+.img-two{
+
+    margin-top: 85px;
+
+}
+
+.text-two{
+    margin-top: 85px;
+    padding-left: 30px;
+}
+
+.text-two h3{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+.text-two h5{
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 135.2%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    padding-top: 20px;
+}
+
+.icon a{
+
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 45px;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.icon{
+
+    padding-top: 43px;
+}
+
+.icon-two{
+
+    padding-left: 40px;
+}
+
+.btn-one{
+    width: 200px;
+    height: 45px;
+    background-color: #FFFFFF;
+    float: right;
+    margin-right: 190px;
+}
+
+.btn-one i{
+    padding-left: 70px;
+}
+
+.text-three h1{
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    color: #000000;
+
+}
+
+.box-one{
+    margin-top: 30px;
+}
+
+.box-two img{
+
+    width: 331px;
+    height: 210px;
+    margin: 15px 0px 10px;
+}
+
+.box-two h4{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.box-two p{
+  
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 135.2%;
+color: #454545;
+}
+
+.card-one, .card-two{
+
+    margin-left: -52px;
+
+}
+
+.img-three img{
+
+    width: 336px;
+    height: 311px;
+}
+
+.img-four img{
+    width: 773px;
+    height: 311px;
+}
+
+.img-five img,
+.img-six img,
+.img-seven img{
+    width: 370px;
+    height: 240px;
+}
+
+.img-six,
+.img-seven{
+
+   margin-left: -73px;
+}
+
+.img-frame h4{
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 53px;
+color: #000000;
+padding-top: 100px;
+padding-bottom: 40px;
+
+}
+
+.bgc{
+    background-color: #000000;
+    margin-top: 130px;
+    height: 280px;
+}
+
+.foot{
+
+    padding-top: 50px;
+}
+
+ul li h3{
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    color: #FFFFFF;
+
+}
+
+ul li{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+ul li p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #909090;
+}
+
+.cl-two h3{
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+
+}
+
+.cl-two i{
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-right: 20px;
+}
+
+.cl-two .sp{
+    padding-bottom: 10px;
+}
+
+.cl-two a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.cl-three h3{
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.cl-three i{
+    font-size: 25px;
+    color: #FFFFFF;
+    
+}
+
+.cl-three button{
+
+    width: 300px;
+    height: 45px;
+    background-color: black;
+    border: 1px solid white;
+    margin-right: 190px;
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 45px;
+    float: left;
+    margin-right: 190px;
+}
+
+.cl-three i{
+    padding-left: 200px;
+}
+
+
+
+
+.text-area{
+    max-width: 1110px ;
+    align-items: center;
+}
+
+.TextA a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: block;
+}
+
+.TextA h3{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 20px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.foter p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #909090;
+    padding-top: 25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
